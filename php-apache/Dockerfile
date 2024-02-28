@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.2-rc-zts-bookworm
 
 RUN curl https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
